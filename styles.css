@@ -43,6 +43,7 @@
 	background-color: #01000c;
 	color: white;
 	width: 150px;
+	font-size: 16px;
 	border-radius: 4px;
 }
 
@@ -66,16 +67,17 @@
 	background-clip: text;
 	text-fill-color: transparent;
 }
-
 p {
 	font-size: 18px;
 	font-weight: 500;
 	text-align: center;
-	margin-bottom: 30px;
 	line-height: 150%;
 }
+.hero-section p {
+	margin-bottom: 30px;
+}
 
-.hero-section input {
+input {
 	border: none;
 	box-shadow: 0px 8px 34px rgba(2, 64, 192, 0.1);
 	border-radius: 4px;
@@ -103,7 +105,7 @@ p {
 }
 .hero-image {
 	width: 95%;
-	box-shadow: 0px 0px 35px rgba(2, 64, 192, 0.1);
+	box-shadow: 0px 20px 100px rgba(2, 64, 192, 0.1);
 }
 
 .learn .heading {
@@ -113,6 +115,10 @@ p {
 .heading h2 {
 	font-size: 48px;
 	margin-bottom: 30px;
+}
+
+.learn {
+	margin-bottom: 180px;
 }
 .learn-image {
 	margin-top: 100px;
@@ -143,5 +149,176 @@ p {
 .item1-icon {
 	width: 24px;
 	height: 24px;
-	margin-right: 12px;
+	margin-right: 8px;
+}
+
+.pull-section {
+	text-align: center;
+	margin-bottom: 180px;
+}
+
+.two-grid {
+	display: flex;
+	text-align: center;
+	height: 700px;
+	margin-top: 80px;
+}
+.left {
+	margin-right: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	padding: 40px;
+	color: white;
+	width: 50%;
+	background: linear-gradient(117.87deg, #929dfd 0%, #f282f4 114.54%);
+}
+.left h3 {
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.tweet {
+	width: 70%;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.right h3 {
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	border: 1px solid #01000c15;
+}
+.top {
+	height: 30%;
+	margin-bottom: 7px;
+}
+.github {
+	width: 42px;
+	margin-bottom: 12px;
+}
+.bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 7px;
+	height: 70%;
+}
+.right-b {
+	width: 100%;
+}
+
+.speed {
+	text-align: center;
+	margin-bottom: 180px;
+}
+.speed span {
+	background: linear-gradient(90deg, #02aab0 0%, #00cdac 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.speed-left {
+	margin-right: 15px;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; */
+	border-radius: 15px;
+	/* padding: 40px; */
+	color: white;
+	width: 50%;
+	background: radial-gradient(
+			114.18% 114.18% at 61.84% 76.75%,
+			#72c6ef 0%,
+			#004e8f 100%
+		)
+		/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.speed-head {
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.speed-left-heading {
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+.speed-para {
+	width: 80%;
+}
+.speed-image {
+	height: 70%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.speed-left-img {
+	width: 80%;
+}
+
+.speed-right {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	border: 1px solid #01000c15;
+}
+.speed-right-heading {
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+.speed-right-para {
+	width: 80%;
+}
+.speed-right-img {
+	width: 80%;
+	height: 80%;
+}
+
+.join {
+	text-align: center;
+	margin-bottom: 180px;
+}
+.footerlogo {
+	width: 30%;
+}
+.join h1 {
+	font-size: 72px;
+	font-weight: 700;
+	margin-top: -80px;
+	margin-bottom: 60px;
+}
+.join button {
+	padding: 20px;
+	background-color: #01000c;
+	color: white;
+	width: 150px;
+	border-radius: 4px;
+	font-size: 16px;
+	border: none;
 }
