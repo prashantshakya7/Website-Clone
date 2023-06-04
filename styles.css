@@ -132,6 +132,9 @@ input {
 .learn-image img {
 	width: 75%;
 }
+.learn-bold {
+	font-weight: 700;
+}
 
 .grid {
 	margin-top: 50px;
