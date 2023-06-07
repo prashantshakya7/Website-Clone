@@ -1,10 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap");
- 
+
 * {
 	font-family: "Urbanist", sans-serif;
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+header {
+	background: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(12px);
+
+	position: sticky;
+	top: 0px;
+	box-shadow: 0px 0px 25px rgba(2, 64, 192, 0.1);
 }
 .container {
 	width: 1280px;
@@ -13,8 +21,6 @@
 .nav-bar {
 	padding: 8px;
 	align-items: center;
-
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .head-logo {
 	width: 30%;
